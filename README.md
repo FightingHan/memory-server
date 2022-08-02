@@ -24,3 +24,4 @@ MEMORY_SERVER
 1. api接口文档使用swagger(https://swagger.io/)动态生成
 2. 使用npm run dev启动项目之后，访问http://localhost:8080/api-docs/（这里是在本地启动）
 3. 只有在开发环境下启动才可以访问此文档# memory-server
+# memory-server
