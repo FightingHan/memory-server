@@ -1,0 +1,43 @@
+{
+  "name": "memory-server",
+  "version": "1.0.0",
+  "description": "memory-website",
+  "main": "server.ts",
+  "scripts": {
+    "dev": "nodemon --watch src -e ts --exec ts-node server.ts",
+    "build": "webpack --mode production"
+  },
+  "server": "nodemon server.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FightingHan/memory-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FightingHan/memory-server/issues"
+  },
+  "homepage": "https://github.com/FightingHan/memory-server#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "mongoose": "^6.5.0",
+    "nodemon": "^2.0.19",
+    "webpack": "^5.74.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.9",
+    "@babel/plugin-transform-runtime": "^7.18.9",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.18.9",
+    "@babel/runtime": "^7.18.9",
+    "@types/express": "^4.17.13",
+    "@types/node": "^18.6.3",
+    "babel-loader": "^8.2.5",
+    "cors": "^2.8.5",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.7.4",
+    "webpack-cli": "^4.10.0"
+  }
+}
